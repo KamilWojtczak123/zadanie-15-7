@@ -1,0 +1,27 @@
+{
+  "name": "zadanie-15-6",
+  "version": "1.0.0",
+  "main": "script-compiled.js",
+  "scripts": {
+    "start": "babel script.js --out-file script-compiled.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KamilWojtczak123/zadanie-15-6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KamilWojtczak123/zadanie-15-6/issues"
+  },
+  "homepage": "https://github.com/KamilWojtczak123/zadanie-15-6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.3.1"
+  },
+  "description": ""
+}

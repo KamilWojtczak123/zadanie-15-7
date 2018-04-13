@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width:1500px;
+    width:100%;
+    background-color: aqua;
+}
+
+nav {
+    background-color: brown;
+    color: red;
+    width: 200px;
+}
+
+a {
+    color: green;
+    font-family: 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: wheat;
+}
+
+.stopWatch {
+    color: darkblue;
+    background-color: aquamarine;
+    height: 29px;
+    width: 100px;
+}
+
+.result {
+    color:pink;
+    background-color: firebrick;
+}
+
+@media only screen and (max-width:1000px) {
+    body {
+        max-width: 998px;
+    }
+}
